@@ -1,0 +1,15 @@
+#datanodei Placed by confd. Do not hand edit.
+
+cluster.name: es
+http.enabled: true
+network.host: _site_
+node.data: true
+node.master: false
+node.name: ${HOSTNAME}
+
+bootstrap.mlockall: true
+discovery.zen.ping.multicast.enabled: false
+
+
+discovery.zen.ping.unicast.hosts: ["masters.elasticsearch"]
+
